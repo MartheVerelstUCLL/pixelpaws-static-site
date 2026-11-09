@@ -30,7 +30,7 @@ jobs:
       - name: Sitebestanden uploaden als artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: "."
+          path: "./pixelpaws-static-site"
 
       - name: Deployen naar GitHub Pages
         id: deployment
